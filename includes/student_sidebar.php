@@ -4,7 +4,7 @@
         <h5>Smart Hostel</h5>
         <p class="mb-0 small">Student Panel</p>
     </div>
-    
+
     <div class="position-sticky pt-3">
         <ul class="nav flex-column">
             <li class="nav-item">
@@ -13,73 +13,73 @@
                     Dashboard
                 </a>
             </li>
-            
+
             <li class="nav-item">
                 <h6 class="sidebar-heading px-3 mt-4 mb-1 text-white-50">
                     <span>MY INFORMATION</span>
                 </h6>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link" href="student_view_profile.php">
                     <i class="fas fa-user-circle"></i>
                     My Profile
                 </a>
             </li>
-            
+
             <li class="nav-item">
-                <a class="nav-link" href="student_room_details.php">
+                <a class="nav-link" href="student_view_room.php">
                     <i class="fas fa-door-open"></i>
                     Room Details
                 </a>
             </li>
-            
+
             <li class="nav-item">
                 <h6 class="sidebar-heading px-3 mt-4 mb-1 text-white-50">
                     <span>PAYMENTS</span>
                 </h6>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link" href="student_view_payments.php">
                     <i class="fas fa-money-bill-wave"></i>
                     Payment History
                 </a>
             </li>
-            
+
             <li class="nav-item">
                 <h6 class="sidebar-heading px-3 mt-4 mb-1 text-white-50">
                     <span>COMPLAINTS</span>
                 </h6>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link" href="student_raise_complaint.php">
                     <i class="fas fa-plus-circle"></i>
                     Raise Complaint
                 </a>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link" href="student_view_complaints.php">
                     <i class="fas fa-tools"></i>
                     My Complaints
                 </a>
             </li>
-            
+
             <li class="nav-item">
                 <h6 class="sidebar-heading px-3 mt-4 mb-1 text-white-50">
                     <span>ACCOUNT</span>
                 </h6>
             </li>
-            
+
             <li class="nav-item">
-                <a class="nav-link" href="student_change_password.php">
+                <a class="nav-link" href="change_password.php">
                     <i class="fas fa-key"></i>
                     Change Password
                 </a>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link" href="logout.php">
                     <i class="fas fa-sign-out-alt"></i>
