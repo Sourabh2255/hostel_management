@@ -43,37 +43,48 @@ $counts = getDashboardCounts();
                 
                 <!-- Statistics -->
                 <div class="container-fluid mb-4">
-                    <div class="row">
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="stat-card bg-primary text-white">
-                                <i class="fas fa-users"></i>
-                                <h3><?php echo $counts['total_students']; ?></h3>
-                                <p>Active Students</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="stat-card bg-success text-white">
-                                <i class="fas fa-door-open"></i>
-                                <h3><?php echo $counts['available_rooms']; ?></h3>
-                                <p>Available Rooms</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="stat-card bg-warning text-white">
-                                <i class="fas fa-file-alt"></i>
-                                <h3><?php echo $counts['pending_applications']; ?></h3>
-                                <p>Pending Applications</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="stat-card bg-danger text-white">
-                                <i class="fas fa-tools"></i>
-                                <h3><?php echo $counts['pending_complaints']; ?></h3>
-                                <p>Pending Complaints</p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-xl-3 col-md-6 mb-4">
+            <a href="staff_view_students.php" class="text-decoration-none">
+                <div class="stat-card bg-primary text-white">
+                    <i class="fas fa-users"></i>
+                    <h3><?php echo $counts['total_students']; ?></h3>
+                    <p>Active Students</p>
                 </div>
+            </a>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <a href="staff_view_rooms.php" class="text-decoration-none">
+                <div class="stat-card bg-success text-white">
+                    <i class="fas fa-door-open"></i>
+                    <h3><?php echo $counts['available_rooms']; ?></h3>
+                    <p>Available Rooms</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <a href="staff_view_applications.php" class="text-decoration-none">
+                <div class="stat-card bg-warning text-white">
+                    <i class="fas fa-file-alt"></i>
+                    <h3><?php echo $counts['pending_applications']; ?></h3>
+                    <p>Pending Applications</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <a href="staff_view_complaints.php" class="text-decoration-none">
+                <div class="stat-card bg-danger text-white">
+                    <i class="fas fa-tools"></i>
+                    <h3><?php echo $counts['pending_complaints']; ?></h3>
+                    <p>Pending Complaints</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
                 
                 <!-- Quick Actions -->
                 <div class="container-fluid mb-4">
